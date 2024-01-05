@@ -16,7 +16,7 @@
             if ($order == TRUE) {
               echo"昇順にソートします。<br>";
               sort($array);
-            } elseif ($order == false){
+            } else {
               echo"降順にソートします。<br>";
               rsort($array);
             }
