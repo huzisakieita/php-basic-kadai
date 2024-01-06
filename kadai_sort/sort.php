@@ -13,7 +13,7 @@
 
           function sort_2way($array, $order) {
             //昇順・降順
-            if ($order == TRUE) {
+            if ($order) {
               echo"昇順にソートします。<br>";
               sort($array);
             } else {
